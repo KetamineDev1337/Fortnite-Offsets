@@ -1,12 +1,12 @@
 namespace offsets
 {
-    uintptr_t UWORLD = 0x12DA3A98;
+    uintptr_t UWORLD = 0x12DA3A98;  //Credit to Stern
     uintptr_t Viewpoint = 0x10F90A10;
 
     uintptr_t LocalPawn = 0x350;
     uintptr_t PlayerController = 0x30;
     uintptr_t LocalPlayers = 0x38;
-    uintptr_t PlayerState = 0x2b0;
+    uintptr_t PlayerState = 0x2b0;  //Credit to Stern
     uintptr_t GameState = 0x190;
     uintptr_t GameInstance = 0x208;
     uintptr_t PlayerArray = 0x2c0;
@@ -37,7 +37,7 @@ namespace offsets
     uintptr_t bIsCrouched = 0x45C;
     uintptr_t bIsDying = 0x758;
     uintptr_t bIsHiddenForDeath = 0x758;
-    uintptr_t bIsKnockedback = 0x758;
+    uintptr_t bIsKnockedback = 0x758;  //Credit to Stern
     uintptr_t bIsStaggered = 0x759;
     uintptr_t bIsSliding = 0x75B;
     uintptr_t bWeaponHolstered = 0x939;
@@ -52,3 +52,4 @@ namespace offsets
     uintptr_t LocalActorPos = 0x120;
     uintptr_t PlayerName = 0xAD0; 
 }
+  //Credit to Stern
